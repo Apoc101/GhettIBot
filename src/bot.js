@@ -61,7 +61,7 @@ Bot made by Gabriel aka Gibgab with <3
 	    // the if statement on top of this was commented out because it's a small server, so there's no real need to make a check for moderation perms
 		
             const member = message.mentions.members.first(); //constant value is the mentioned user to send to bazorpa
-            const bazorpa = message.guild.channels.cache.find(c => c.id === '846767184390520882'); //set a bazorpa constant with the voice.channel id, then a find wiuth a lambda function (canche.find as of discord.js 12.x)
+            const bazorpa = message.guild.channels.cache.find(c => c.id === '846767184390520882'); //set a bazorpa constant with the voice.channel id, then a find with a lambda function (canche.find as of discord.js 12.x)
             if(!member) return message.reply('Specifica di chi cazzo stai parlando deficiente'); //check if member was mentioned
             if(!member.voice.channel) return message.reply("Questo idiota non c'e' in vocale"); //check if member mentioned is in a vc
             if(!message.member.voice.channel) return message.reply("NON SEI NEMMENO TE IN UNA VOCALE MADONNA SE SEI CRETINO"); //check if message author is in a vc
