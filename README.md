@@ -12,7 +12,7 @@
  
 **g!baz @user / g!bazorpa @user** - Sends that dumb cretin to bazorpa: custom command for [the "gamer" server](https://discord.gg/nJQvwGb32g) (it wont work if the command is used in any other server, due to a `const` variable containing a specific ID of the voice channel)
 
-**g!ping** - It's a surprise
+**g!ping** - Responds with a funny text
 
 **g!customer [num]** - Try guessing what this does
  
