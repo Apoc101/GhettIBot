@@ -24,7 +24,7 @@
  
 <br>
 
-## To add it to your server, [click here](https://discord.com/api/oauth2/authorize?client_id=941733393228505158&permissions=8&scope=bot).
+## To add it to your server, [click here](https://discord.com/api/oauth2/authorize?client_id=941733393228505158&permissions=16777232&scope=bot).
 
 <br>
 
