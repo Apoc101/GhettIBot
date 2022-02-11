@@ -20,7 +20,7 @@
  
 **g!chat** - Link to Ghetti Chat
  
-**g!creator** - Link to my website, open it or you're a gnome
+**g!creator** - Link to my website
  
 <br>
 
