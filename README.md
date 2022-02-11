@@ -29,4 +29,4 @@
 <br>
 
 If you want to run it with your own token, check that you have all of the required dependencies and then run `npm run dev` <br>
-('dev' is a script I added in `package.json` for a nodemon script for comodity while making the bot)
+('dev' is a script I added to `package.json` for a nodemon script for comodity while making the bot)
