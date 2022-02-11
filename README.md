@@ -2,8 +2,9 @@
  Bot made as a spiritual successor to MazziottiBot, but letting it keep its own functionalities. Most of the code is commented, and the npm requirements are commented at the top of `bot.js`
  
  The prefix is `g!`
+ <br>
  
- List of commands:
+ ## List of commands:
  
 **g!help** - Lists commands
  
@@ -19,7 +20,11 @@
  
 **g!creator** - Link to my website, open it or you're a gnome
  
+<br>
 
-To add it to your server [click here.](https://discord.com/api/oauth2/authorize?client_id=941733393228505158&permissions=8&scope=bot);
+## To add it to your server, [click here.](https://discord.com/api/oauth2/authorize?client_id=941733393228505158&permissions=8&scope=bot)
 
-If you want to run it with your own token, check that you have all of the required dependencies and then run `npm run dev` (dev is a script I added in `package.json` for a nodemon script for comodity while making the bot)
+<br>
+
+If you want to run it with your own token, check that you have all of the required dependencies and then run `npm run dev` <br>
+('dev' is a script I added in `package.json` for a nodemon script for comodity while making the bot)
