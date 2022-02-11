@@ -1,5 +1,5 @@
 # GhettiBot
- Bot made in nodejs as a spiritual successor to MazziottiBot, but letting it keep its own functionalities. Most of the code is commented, and the npm requirements are commented at the top of `bot.js`
+ Bot made in node.js as a spiritual successor to MazziottiBot, but letting it keep its own functionalities. Most of the code is commented, and the npm requirements are commented at the top of `bot.js`
  
  The prefix is `g!`
  
