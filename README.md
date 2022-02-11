@@ -2,6 +2,8 @@
  Bot made as a spiritual successor to MazziottiBot, but letting it keep its own functionalities. Most of the code is commented, and the npm requirements are commented at the top of `bot.js`
  
  The prefix is `g!`
+ 
+ I used an environment variable for the token (omitted in the repo for obvious reasons) in a .env file, and if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
  <br>
  
  ## List of commands:
@@ -22,7 +24,7 @@
  
 <br>
 
-## To add it to your server, [click here.](https://discord.com/api/oauth2/authorize?client_id=941733393228505158&permissions=8&scope=bot)
+## To add it to your server, [click here](https://discord.com/api/oauth2/authorize?client_id=941733393228505158&permissions=8&scope=bot).
 
 <br>
 
