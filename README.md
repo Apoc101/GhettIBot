@@ -3,7 +3,7 @@
  
  The prefix is `g!`
  
- I used an environment variable for the token (omitted in the repo for obvious reasons) in a .env file, and if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
+ I used an environment variable for the token (omitted in the repo for obvious reasons) in a .env file; <br> if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
  <br>
  
  ## List of commands:
