@@ -34,5 +34,6 @@
 
 <br>
 
-If you want to run it with your own token, check that you have all of the required dependencies and then run `npm run dev` <br>
+If you want to run it with your own token, check that you have all of the required dependencies and then run:
+> `npm run dev` <br>
 ('dev' is a nodemon command script I added to `package.json` for comodity while making the bot)
