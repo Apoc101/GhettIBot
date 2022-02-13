@@ -1,26 +1,32 @@
 # GhettiBot
  Bot made in node.js as a spiritual successor to MazziottiBot, but letting it keep its own functionalities. Most of the code is commented, and the npm requirements are commented at the top of `bot.js`
  
- The prefix is `g!`
+ The prefix is `g.`
  
  I used an environment variable for the token (omitted from the repo for obvious reasons) in a .env file; <br> if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
  <br>
  
  ## List of commands:
  
-**g!help** - Lists commands
+**g.help** - Lists commands
  
-**g!baz @user / g!bazorpa @user** - Sends that dumb cretin to bazorpa: custom command for [the "gamer" server](https://discord.gg/nJQvwGb32g) (it wont work if the command is used in any other server, due to a `const` variable containing a specific ID of the voice channel)
+**g.baz @user / g!bazorpa @user** - Sends that dumb cretin to bazorpa: custom command for [the "gamer" server](https://discord.gg/nJQvwGb32g) (it wont work if the command is used in any other server, due to a `const` variable containing a specific ID of the voice channel)
 
-**g!ping** - Responds with a funny text
+**g.ping** - Responds with a funny text
 
-**g!customer [num]** - Try guessing what this does
+**g.customer [num]** - Try guessing what this does
+
+**g.spam** - Starts spamming
+
+**g.stopspam** - Stops spamming
+
+**g.simo / cavo / mattia / gab / sigghy** - A random picture of whatever name you include
  
-**g!website** - Link to the epic Ghetti website
+**g.website** - Link to the epic Ghetti website
  
-**g!chat** - Link to Ghetti Chat
+**g.chat** - Link to Ghetti Chat
  
-**g!creator** - Link to my website
+**g.creator** - Link to my website
  
 <br>
 
