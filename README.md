@@ -41,7 +41,7 @@ If you want to run it with your own token, check that you have all of the requir
 ('dev' is a nodemon command script I added to `package.json` for comodity while making the bot)
 <br> 
 <br> 
-The only perms this will ask for is to manage channels and it's for the bazorpa channel; this is obviously prone to change in future versions.
+The only perms this will ask for is to manage channels and it's for the bazorpa channel, at least for now.
 <br>
 <br>
 In `package.json`, the discord.js is interchangeable to 16.6.0 or whichever you need, just crosscheck bot.js with the documentation, because class properties like client.on(message, callback) are VERY prone to changes (even the Client constructor can easily change between versions).
