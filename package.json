@@ -13,7 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "dotenv": "^16.0.0",
-    "remove_this_comment": "The discord.js is interchangeable to 16.6.0 or whichever you need, just crosscheck bot.js with the documentation, because client.on(message, callback) is VERY prone to changes"
+    "dotenv": "^16.0.0"
   }
 }
