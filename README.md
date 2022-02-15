@@ -5,7 +5,7 @@
  
  I used an environment variable for the token (omitted from the repo for obvious reasons) in a .env file; <br> if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
  <br>
- Also, it's hosted with a RasPi 3 and PM2.
+ Also, it's hosted with a headless RasPi 3 and PM2.
  <br>
  
  ## List of commands:
