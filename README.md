@@ -1,5 +1,5 @@
 # GhettiBot
- Bot made in node.js as a spiritual successor to Ñ Bot and MazziottiBot, but letting 'em keep their own functionalities. Most of the code is commented with descriptions, and the package requirements are commented at the top of `bot.js`
+ Bot made in node.js as a project originally spawned by non-admin users wanting to send deafend users to Bazorpa. Most of the code is commented with descriptions, and the package requirements are commented at the top of `bot.js`
  
  The prefix is `g.`
  
