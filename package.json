@@ -13,6 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0" //This is interchangeable to 13/12 or whichever you need, just cross check bot.js with the documentation, because client.on(message) is VERY prone to changes
   }
 }
