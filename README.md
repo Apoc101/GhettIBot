@@ -12,7 +12,9 @@
  
 **g.help** - Lists commands
  
-**g.baz @user / g!bazorpa @user** - Sends that dumb cretin to bazorpa: custom command for [the "gamer" server](https://discord.gg/nJQvwGb32g) (it wont work if the command is used in any other server, due to a variable containing a specific ID of the voice channel, although I might eventually make `..args` into an array so that you can add a custom ID to your own Bazorpa)
+**g.baz @user / g.bazorpa @user** - Sends that dumb cretin to bazorpa: custom command for [the "gamer" server](https://discord.gg/nJQvwGb32g) (it wont work if the command is used in any other server, due to a variable containing a specific ID of the voice channel, although I might eventually make `..args` into an array so that you can add a custom ID to your own Bazorpa)
+
+**b @user** - Shortened bazorpa command, please don't abuse since you will likely piss everyone off and probably regret it.
 
 **g.ping** - Responds with a funny text
 
