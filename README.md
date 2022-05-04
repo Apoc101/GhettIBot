@@ -5,6 +5,8 @@
  
  The prefix is `g.`
  
+ To add it to your server, [click here](https://discord.com/api/oauth2/authorize?client_id=941733393228505158&permissions=16777232&scope=bot)
+ 
  I used an environment variable for the token (omitted from the repo for obvious reasons) in a .env file; <br> if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
  <br>
  Also, it's hosted with a headless RasPi 3 and PM2.
@@ -35,9 +37,6 @@
 **g.creator** - Link to my website
  
 <br>
-
-# To add it to your server, [click here](https://discord.com/api/oauth2/authorize?client_id=941733393228505158&permissions=16777232&scope=bot)
-<br><br>
 
 
 If you want to run it with your own token, check that you have all of the required dependencies and then run:
