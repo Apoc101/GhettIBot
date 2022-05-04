@@ -44,7 +44,7 @@ If you want to run it with your own token, check that you have all of the requir
 
 ('dev' is a nodemon command script I added to `package.json` for comodity while making the bot)
 <br> 
-<br> 
+
 The only perms this will ask for is to manage channels and it's for the bazorpa channel, at least for now.
 <br>
 <br>
