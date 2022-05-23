@@ -1,7 +1,12 @@
 # GhettiBot
- Bot made in node.js as a project originally spawned by non-admin users wanting to send deafend users to Bazorpa. Most of the code is commented with descriptions.
+ > **Warning**: this bot contains some profanity, as it was designed to be more of a funny project than a professional one.
+ <br>
+
+ Bot made in node.js as a project originally spawned by non-admin users wanting to send deafend users to Bazorpa. 
  
- > **Note**
+ Most of the code is commented with descriptions.
+ 
+ > **Note**:
  > 
  > The package requirements are commented at the top of `bot.js`
  > 
@@ -24,28 +29,28 @@ I used an environment variable for the token (omitted from the repo for obvious 
  <br>
  
  ## List of commands:
+>
+> **g.help** - Lists commands
  
-**g.help** - Lists commands
+> **g.baz @user / g.bazorpa @user** - Sends that dumb cretin to bazorpa: custom command for [the "gamer" server](https://discord.gg/nJQvwGb32g) (it wont work if the command is used in any other server, due to a variable containing a specific ID of the voice channel, although I might eventually make `..args` into an array so that you can add a custom ID to your own Bazorpa)
+
+> **b @user** - Shortened bazorpa command, please don't abuse this since you will likely piss everyone off and probably regret it
+
+> **g.ping** - Responds with a funny text
+
+> **g.customer [num]** - Try guessing what this does
+
+> **g.spam** - Starts spamming
+
+> **g.stopspam** - Stops spamming
+
+> **g.simo / cavo / mattia / gab / sigghy** - A random picture of whatever name you include
  
-**g.baz @user / g.bazorpa @user** - Sends that dumb cretin to bazorpa: custom command for [the "gamer" server](https://discord.gg/nJQvwGb32g) (it wont work if the command is used in any other server, due to a variable containing a specific ID of the voice channel, although I might eventually make `..args` into an array so that you can add a custom ID to your own Bazorpa)
-
-**b @user** - Shortened bazorpa command, please don't abuse this since you will likely piss everyone off and probably regret it
-
-**g.ping** - Responds with a funny text
-
-**g.customer [num]** - Try guessing what this does
-
-**g.spam** - Starts spamming
-
-**g.stopspam** - Stops spamming
-
-**g.simo / cavo / mattia / gab / sigghy** - A random picture of whatever name you include
+> **g.website** - Link to the epic Ghetti website
  
-**g.website** - Link to the epic Ghetti website
+> **g.chat** - Link to Ghetti Chat
  
-**g.chat** - Link to Ghetti Chat
- 
-**g.creator** - Link to my website
+> **g.creator** - Link to my website
  
 <br> 
 
