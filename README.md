@@ -16,7 +16,9 @@
  > 
  > In `package.json`, the discord.js is interchangeable to 16.6.0 or whichever you need, just crosscheck bot.js with the documentation, because class properties like client.on(message, callback) are VERY prone to changes (even the Client constructor can easily change between versions).
 <br>
- I used an environment variable for the token (omitted from the repo for obvious reasons) in a .env file; <br> if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
+
+I used an environment variable for the token (omitted from the repo for obvious reasons) in a .env file; <br> if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
+ 
  <br>
  Also, it's currently not hosted, as my RasPi is kind of a mess.
  <br>
