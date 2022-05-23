@@ -55,7 +55,7 @@ client.on('message', (message) => {
         const [CMD_NAME, ...args] = message.content  //CMD_NAME is the command name, and ...args is the .trim, .substring etc (basically what comes after the command)
             .trim() //make it look nicer with trim
             .substring(PREFIX.length) //substring the message after the prefix length (in case i want to modify the prefix)
-            .split(/\s+/); //split at a regular expression of a white space
+            .split(/\s+/); //split at a regular expression of a white space (NOTE: interchangable with a normal empty string, but could cause some problems)
         
         if(CMD_NAME === 'help' || CMD_NAME === 'aiuto'){ //help command, nothing too special; the 'English:' is all the way back there because of weird discord formatting
             message.channel.send(`
