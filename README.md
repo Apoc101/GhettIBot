@@ -8,6 +8,10 @@
  > The prefix is `g.`
  > 
  > To add it to your server, [click here](https://discord.com/api/oauth2/authorize?client_id=941733393228505158&permissions=16777232&scope=bot)
+ > 
+ > If you want to run it with your own token, check that you have all of the required dependencies and then run:
+ > `npm run dev` <br>
+
  
  I used an environment variable for the token (omitted from the repo for obvious reasons) in a .env file; <br> if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
  <br>
