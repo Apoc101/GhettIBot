@@ -14,7 +14,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 // Create prefixes variable
 const PREFIX = "g.";
-const bazPRE = "b"
+const bazPRE = "b";
 
 // Initialize fs
 const fs = require('fs');
