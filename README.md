@@ -1,15 +1,17 @@
 # GhettiBot
- Bot made in node.js as a project originally spawned by non-admin users wanting to send deafend users to Bazorpa. Most of the code is commented with descriptions,
+ Bot made in node.js as a project originally spawned by non-admin users wanting to send deafend users to Bazorpa. Most of the code is commented with descriptions.
  
- and the package requirements are commented at the top of `bot.js`
- 
- The prefix is `g.`
- 
- To add it to your server, [click here](https://discord.com/api/oauth2/authorize?client_id=941733393228505158&permissions=16777232&scope=bot)
+ > **Note**
+ > 
+ > The package requirements are commented at the top of `bot.js`
+ > 
+ > The prefix is `g.`
+ > 
+ > To add it to your server, [click here](https://discord.com/api/oauth2/authorize?client_id=941733393228505158&permissions=16777232&scope=bot)
  
  I used an environment variable for the token (omitted from the repo for obvious reasons) in a .env file; <br> if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
  <br>
- Also, it's hosted with a headless RasPi 3 and PM2.
+ Also, it's currently not hosted, as my RasPi is kind of a mess.
  <br>
  
  ## List of commands:
