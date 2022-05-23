@@ -11,8 +11,7 @@
  > 
  > If you want to run it with your own token, check that you have all of the required dependencies and then run:
  > `npm run dev` <br>
-
- 
+<br>
  I used an environment variable for the token (omitted from the repo for obvious reasons) in a .env file; <br> if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
  <br>
  Also, it's currently not hosted, as my RasPi is kind of a mess.
