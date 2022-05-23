@@ -3,7 +3,7 @@
 
 // Some commands require Administrator priviledge
 
-// Require the enviroment variables which include the token (added to the .gitignore :troll:)
+// Require the enviroment variables which include the token (added to the .gitignore lol)
 require("dotenv").config();
 
 // Require the necessary discord.js classes
