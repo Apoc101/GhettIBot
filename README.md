@@ -13,6 +13,8 @@
  > `npm run dev` <br>
  > 
  > ('dev' is a nodemon command script I added to `package.json` for comodity while making the bot)
+ > 
+ > In `package.json`, the discord.js is interchangeable to 16.6.0 or whichever you need, just crosscheck bot.js with the documentation, because class properties like client.on(message, callback) are VERY prone to changes (even the Client constructor can easily change between versions).
 <br>
  I used an environment variable for the token (omitted from the repo for obvious reasons) in a .env file; <br> if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
  <br>
@@ -46,6 +48,3 @@
 <br> 
 
 The only perms this will ask for is to manage channels and it's for the bazorpa channel, at least for now.
-<br>
-<br>
-In `package.json`, the discord.js is interchangeable to 16.6.0 or whichever you need, just crosscheck bot.js with the documentation, because class properties like client.on(message, callback) are VERY prone to changes (even the Client constructor can easily change between versions).
