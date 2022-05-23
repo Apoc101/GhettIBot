@@ -89,7 +89,7 @@ Bot made by Gabriel aka Gibgab with <3
             `);
         }
 
-        if(CMD_NAME === 'baz' || CMD_NAME === 'bazorpa'){ //this command requires admin and to be in the gamers' server (https://discord.gg/nJQvwGb32g), if you're not in it catches the error
+        if(CMD_NAME === 'baz' || CMD_NAME === 'bazorpa'){ //this command requires admin and to be in the gamers' server (https://discord.gg/nJQvwGb32g), if the bot is not in it, an error is caught
             //if(!message.member.permissions.has('MANAGE_CHANNELS')) return; //check if messauge author has perms
             const member = message.mentions.members.first(); //constant value is the mentioned user to send to bazorpa
             const bazorpa = message.guild.channels.cache.find(c => c.id === '846767184390520882'); //set a bazorpa constant with the voice.channel id, then a find with a lambda function (canche.find as of discord.js 12.x)
