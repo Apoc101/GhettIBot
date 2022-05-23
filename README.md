@@ -11,6 +11,8 @@
  > 
  > If you want to run it with your own token, check that you have all of the required dependencies and then run:
  > `npm run dev` <br>
+ > 
+ > ('dev' is a nodemon command script I added to `package.json` for comodity while making the bot)
 <br>
  I used an environment variable for the token (omitted from the repo for obvious reasons) in a .env file; <br> if you want to learn how to do that, [check out this link](https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs). 
  <br>
@@ -41,13 +43,6 @@
  
 **g.creator** - Link to my website
  
-<br>
-
-
-If you want to run it with your own token, check that you have all of the required dependencies and then run:
-> # `npm run dev` <br>
-
-('dev' is a nodemon command script I added to `package.json` for comodity while making the bot)
 <br> 
 
 The only perms this will ask for is to manage channels and it's for the bazorpa channel, at least for now.
